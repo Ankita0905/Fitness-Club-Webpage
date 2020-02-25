@@ -1,0 +1,92 @@
+/* styles for the body */
+body
+{
+  background-color: #ffff99;
+}
+
+/* styles for container id */
+#container
+{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* styles for header */
+header
+{
+  margin-top: 10px;
+  margin-bottom: 20px;
+/*  we can also give code for the color as #ffffff */
+  background-color: white;
+  /* horizontal vertical(both can be -ve also) */
+  /* hue(amount of shadow to spread more the number more is the spread) color */
+  box-shadow: 12px 12px 12px grey;
+  border-radius: 20px;
+
+}
+
+/* styles for the nav item */
+nav
+{
+  font-family: Georgia, "Times New Roman", serif;
+  /* em is the default font size so 1.25em means 1.25 times the default value */
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+}
+
+/* styles for the main */
+main
+{
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 12px 12px 12px grey;
+}
+
+footer
+{
+  font-size: 0.7em;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* styles for the equip class */
+.equip
+{
+  float: left;
+  margin-right: 20px;
+}
+
+/* clear the heading coming after the classes that is float left */
+/* h1
+{
+  clear: left;
+} */
+
+ul
+{
+  margin-bottom: 90px;
+  list-style-position: inside;
+}
+
+dt
+{
+  font-weight: bold;
+}
+
+dd
+{
+  margin-bottom: 20px;
+}
