@@ -1,13 +1,22 @@
+/* styles for the mobile-first strategy */
+
+
 /* styles for the body */
 body
 {
   background-color: #ffff99;
 }
 
+/* styles for fluid image */
+img
+{
+  max-width: 100%;
+}
+
 /* styles for container id */
 #container
 {
-  width: 80%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -15,14 +24,11 @@ body
 /* styles for header */
 header
 {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 0.2em;
 /*  we can also give code for the color as #ffffff */
   background-color: white;
-  /* horizontal vertical(both can be -ve also) */
-  /* hue(amount of shadow to spread more the number more is the spread) color */
-  box-shadow: 12px 12px 12px grey;
-  border-radius: 20px;
+  border-radius: 0.5em;
+  text-align: center;
 
 }
 
@@ -34,12 +40,46 @@ nav
   font-size: 1.25em;
   font-weight: bold;
   text-align: center;
-  padding: 15px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border-radius: 20px;
-  border-top: 5px solid white;
-  border-bottom: 5px solid white;
+}
+
+/* style for the unorderd list inside the nav */
+nav ul
+{
+  padding: 0;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* add styles for list items inside the nav */
+
+nav li
+{
+  background-color: #009933;
+  border-radius: 2em;
+  list-style-type: none;
+  margin: 0.3em;
+  padding: 0.4em;
+}
+
+/* add styles for the anchor tah inside the list item which is inside nav */
+nav li a
+{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* add styles for the mobile class */
+
+.mobile
+{
+  display: inline;
+}
+
+/* style for the desktop class */
+
+.desktop
+{
+  display: none;
 }
 
 /* styles for the main */
@@ -47,26 +87,30 @@ main
 {
   font-family: Verdana, Arial, sans-serif;
   font-size: 1em;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  padding: 20px;
-  border-radius: 10px;
+  margin-top: 0.5em;
+  padding: 1em;
+  border-radius: 1em;
   background-color: white;
-  box-shadow: 12px 12px 12px grey;
+  border-top: solid 0.2em #009933;
+  border-bottom: solid 0.2em #009933;
 }
 
 footer
 {
   font-size: 0.7em;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 2em;
 }
 
+/* styles for the tablet class */
+.tablet
+{
+  display: none;
+}
 /* styles for the equip class */
 .equip
 {
-  float: left;
-  margin-right: 20px;
+  display: none;
 }
 
 /* clear the heading coming after the classes that is float left */
@@ -77,7 +121,7 @@ footer
 
 ul
 {
-  margin-bottom: 90px;
+  margin-bottom: 50px;
   list-style-position: inside;
 }
 
