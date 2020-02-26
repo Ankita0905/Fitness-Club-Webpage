@@ -113,24 +113,73 @@ footer
   display: none;
 }
 
-/* clear the heading coming after the classes that is float left */
-/* h1
+/* Media query for the tablet viewport target screen only*/
+/* mininum width is 481 px */
+@media only screen and (min-width: 481px)
 {
-  clear: left;
-} */
+  /* styles specifies the horizontal display for the nav li */
 
-ul
+  nav li
+  {
+    display: inline;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-left: 0;
+    padding-right: 0;
+    width: 18%;
+  }
+
+  /* styles for the main */
+  main
+  {
+    clear: left;
+    margin-top: 4em;
+  }
+
+  /* styles the mobile and desktop class */
+
+  .mobile
+  {
+    display: none;
+  }
+
+  .desktop
+  {
+    display: inline;
+  }
+
+  /* styles for the equip class */
+
+  .equip
+  {
+    display: inline;
+    float: left;
+    margin-right: 1.5em;
+  }
+
+/* styles for the class items */
+
+.items
 {
-  margin-bottom: 50px;
+  display: block;
   list-style-position: inside;
+  margin-bottom: 5em;
 }
+/* styles for the tablet class */
+
+.tablet
+{
+  display: block;
+}
+
+/* styles for the dt */
 
 dt
 {
   font-weight: bold;
+  margin-top: 0.7em;
 }
 
-dd
-{
-  margin-bottom: 20px;
+
 }
