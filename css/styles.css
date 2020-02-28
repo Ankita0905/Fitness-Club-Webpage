@@ -115,7 +115,7 @@ footer
 
 /* Media query for the tablet viewport target screen only*/
 /* mininum width is 481 px */
-@media only screen and (min-width: 481px)
+@media only screen and (min-width: 685px)
 {
   /* styles specifies the horizontal display for the nav li */
 
@@ -128,6 +128,7 @@ footer
     padding-left: 0;
     padding-right: 0;
     width: 18%;
+    white-space: nowrap;
   }
 
   /* styles for the main */
@@ -180,6 +181,89 @@ dt
   font-weight: bold;
   margin-top: 0.7em;
 }
+}
 
+/* Media query for desktop width size*/
+@media only screen and (min-width: 860px)
+{
+  /* styles for container div */
+  #container
+  {
+    width: 80%;
+  }
+  /* style for ul in nav */
+  nav ul
+  {
+    margin: 0;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+  }
+/* styles for the li in nav */
+nav li
+{
+  border-radius: 0;
+  border-top: solid black;
+  border-bottom: solid black;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  width: 20%;
+}
 
+/* styles for the links in the nav */
+nav li a
+{
+  display: inline-block;
+  padding: 0.7em;
+}
+
+/* style for the main */
+main
+{
+  border-style: none;
+  box-shadow: 0.5em 0.5em 0.5em gray;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+/* styles for the paragraph inside main */
+main p
+{
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+/* stles for the item class */
+.item
+{
+  margin-bottom: 6em;
+}
+/* adding pseudo clas for the links */
+nav li a:hover
+{
+  color: #ffff00;
+  font-style: italic;
+}
+
+nav li a:link
+{
+  color: white;
+}
+
+nav li a:visited
+{
+  color:#ffff00;
+}
+
+/* styles for the gradient */
+body
+{
+  /* it is for safari and chrome */
+  background: -webkit-linear-gradient(white, #ffff00);
+  /* add for other browsers */
+  background: linear-gradient(white, #ffff00);
+  /* mozzila firefox */
+  background: -moz-linear-gradient(white, #ffff00);
+  /* opera */
+  background: -o-linear-gradient(white, #ffff00);
+}
 }
