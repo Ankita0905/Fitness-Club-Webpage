@@ -241,6 +241,14 @@ dt
   font-weight: bold;
   margin-top: 0.7em;
 }
+/* styles for the contact class */
+.contact
+{
+  background-color: transparent;
+  padding: 0;
+  color: #1d1d1c;
+  text-decoration: underline;
+}
 }
 
 /* Media query for desktop width size*/
@@ -375,5 +383,15 @@ section a
 section p
 {
   margin-left: 0;
+}
+/* styles for hedahing h2 */
+main h2
+{
+  color: white;
+}
+/* style for the contact */
+.contact
+{
+  color: white;
 }
 }
