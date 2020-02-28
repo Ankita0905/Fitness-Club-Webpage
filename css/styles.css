@@ -211,10 +211,31 @@ main a
 .tablet
 {
   display: block;
+  margin-top: -3em;
+  margin-bottom: -1em;
+}
+/* style for the section */
+section
+{
+  padding-bottom: 3em;
+}
+
+/* styles for the h1 in section */
+section h1
+{
+  text-align: left;
+}
+/* styles for the a tag inside section */
+section a
+{
+  background-color: transparent;
+  color: #1d1d1c;
+  font-weight: normal;
+  padding: 0;
+  text-decoration: underline;
 }
 
 /* styles for the dt */
-
 dt
 {
   font-weight: bold;
@@ -337,5 +358,17 @@ footer
   background-color: #2a2a2a;
   margin-top: -0.2em;
   padding: 2em;
+}
+/* styles for section */
+section
+{
+  color: white;
+  margin-left: 1em;
+  padding-bottom: 5em;
+}
+/* styles for the a tag inside section */
+section a
+{
+  color: white;
 }
 }
