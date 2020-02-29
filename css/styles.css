@@ -280,6 +280,15 @@ article ul
 {
   text-align: left;
 }
+/* styles for aside element */
+aside
+{
+  background-color: white;
+  border-radius: 0 5em 5em 5em;
+  box-shadow: 1em 1em 1em #4c4f4d;
+  padding: 1.5em;
+  margin: 1em;
+}
 }
 
 /* Media query for desktop width size*/
@@ -424,5 +433,14 @@ main h2
 .contact
 {
   color: white;
+}
+/* styles for the h2 in article in main */
+main article h2
+{
+  color: black;
+}
+article p
+{
+  color: black;
 }
 }
