@@ -289,6 +289,34 @@ aside
   padding: 1.5em;
   margin: 1em;
 }
+/* styles for the table */
+table
+{
+  border: 0.1em solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+/* styles for the th and td in table */
+th,td
+{
+  border: 0.1em solid black;
+  padding: 1em;
+}
+/* styles for th only */
+th
+{
+  background-color: #1d1d1c;
+  color: white;
+}
+/* styles for caption */
+caption
+{
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
 }
 
 /* Media query for desktop width size*/
@@ -442,5 +470,16 @@ main article h2
 article p
 {
   color: black;
+}
+/* styles for the table */
+table
+{
+  background-color: white;
+  width: 85%;
+}
+/* styles for the caption */
+caption
+{
+  color: white;
 }
 }
