@@ -126,6 +126,36 @@ main a
   display: none;
 }
 
+/* styles for the input text area */
+input,textarea,select
+{
+  display: block;
+  margin-bottom: 1em;
+}
+label
+{
+  display: block;
+}
+
+/* styles for th eul in the form */
+form ul
+{
+  list-style-type: none;
+}
+
+/* styles for the checkbox */
+
+.checkbox
+{
+  display: inline-block;
+}
+
+/* styles for mobile */
+.video
+{
+  display: none;
+}
+
 /* Media query for the tablet viewport target screen only*/
 /* mininum width is 481 px */
 @media only screen and (min-width: 685px)
@@ -317,6 +347,26 @@ caption
   font-weight: bold;
   margin-bottom: 0.5em;
 }
+.flex-container
+{
+  display: flex;
+}
+
+/* styles for the label */
+label
+{
+  float: left;
+  padding-right: 0.5em;
+  width: 10em;
+  text-align: right;
+}
+
+/* styles for the btn class */
+.btn
+{
+  margin-left: 12em;
+
+}
 }
 
 /* Media query for desktop width size*/
@@ -481,5 +531,35 @@ table
 caption
 {
   color: white;
+}
+
+/* styles for the form elements */
+form
+{
+  background-color: white;
+  padding: 1em;
+}
+
+/* styles for the p tag in form */
+form p
+{
+  color: black;
+  margin-left: inherit;
+}
+
+/* styles for video class */
+.video
+{
+  display: block;
+  padding: 1em;
+  text-align: center;
+}
+
+/* styles for video tag */
+video
+{
+  border: 0.5em ridge white;
+  height: auto;
+  max-width: 100%;
 }
 }

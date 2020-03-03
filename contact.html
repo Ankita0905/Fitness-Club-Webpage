@@ -30,6 +30,44 @@
       <!--  thw main content of the webpage -->
           <main>
           <h2>Ready to get Started? Contact Us today.</h2>
+          <h2>Complete the Form Below t begin your free trail:</h2>
+          <form>
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" id="fname">
+
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="lname">
+
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" id="email">
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone">
+
+            <p>I would like more information about:</p>
+            <ul>
+              <li>
+                <input type="checkbox" name="grpft" id="grpft" value="grpft" class="checkbox"> Group Fitness</li>
+              <li><input type="checkbox" name="prtrain" id="prtrain" value="prtrain" class="checkbox"> Personal Training</li>
+              <li><input type="checkbox" name="nutr" id="nutr" value="nutr" class="checkbox"> Nutrition</li>
+            </ul>
+
+            <label for="reference">Referral Source</label>
+            <select name="reference" id="reference">
+              <option value="ad">Advertisement</option>
+              <option value="friend">Friend</option>
+              <option value="google">Google</option>
+              <option value="social">Social</option>
+              <option value="other">Others</option>
+            </select>
+
+            <label for="questions">Questions</label>
+            <textarea name="questions" rows="3" cols="25"></textarea>
+
+            <input type="submit" value="submit" id="submit" class="btn">
+            <input type="reset" value="reset" id="reset" class="btn">
+
+          </form>
           <p>We are located at: <br>
             55 Pefferlaw Circle <br>
             Brampton, Ontario.
