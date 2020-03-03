@@ -156,6 +156,27 @@ form ul
   display: none;
 }
 
+/* styles for the copyright div */
+#copyright
+{
+  float: left;
+  margin-top: 2em;
+  width: 80%;
+}
+
+/* styles for the social div */
+#social
+{
+  float: right;
+  width: 20%;
+}
+
+/* styles fpor the social media icons */
+/* #social img
+{
+  padding: 0.5em;
+} */
+
 /* Media query for the tablet viewport target screen only*/
 /* mininum width is 481 px */
 @media only screen and (min-width: 685px)
@@ -484,6 +505,7 @@ footer
   background-color: #2a2a2a;
   margin-top: -0.2em;
   padding: 2em;
+  overflow: auto;
 }
 /* styles for section */
 section
